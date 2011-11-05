@@ -1,0 +1,143 @@
+.container {
+	width:710px;
+	
+}
+body {
+	background-color:#c3cdfb;
+
+}
+
+header {
+	padding-top:20px;
+}
+
+header img {
+	padding:1em;
+	
+}
+
+#logo {
+	font-size:400%;
+	background:#fff;
+	display:inline-block;
+	padding:.4em;
+}
+
+
+
+section {
+	margin-top:1em;
+	font-size:120%;
+	padding:20px;
+	background:#fff;
+}
+
+section h1 {
+	font-size:200%;
+}
+
+/* links */
+
+a {
+	color:#09c;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#069;
+	text-decoration:underline;
+}
+
+a:visited {
+	color: #069;
+}
+
+/* navigation */
+
+nav {
+	float: right
+}
+
+nav {
+	background:white;
+	padding: 0 0.7em;
+	white-space: nowrap;
+	
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.2em 0.6em;
+}
+
+nav ul li a {
+	font-weight:bold;
+}
+
+nav ul li a:visited {
+	color:#09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+	margin-top:10px;
+	text-align:center;
+	
+}
+
+footer nav {
+	float:none;
+}
+
+/* signup button */
+
+a.signup_button {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+display:block;
+width:180px;
+color:#fff;
+background:#006400;
+font-size:150%;
+padding:10px 20px;
+
+-moz-border-radius: 8px;
+	-webkit-border-radius 8px;
+	border-radius:8px;
+}
+
+/* round corners */
+
+.round {
+	-moz-border-radius: 8px;
+	-webkit-border-radius 8px;
+	border-radius:8px;
+}
+
+/* bg cloud */
+
+#bg_cloud {
+height:237px;
+width:100%;
+position:absolute;
+   bottom:0;
+		background-image:url("/assets/bg_cloud.png");
+	background-position: bottom left;
+	background-repeat:y;
+}
+
+/* misc */
+
+.high_light {
+	color:#09c;
+}
