@@ -60,10 +60,9 @@ nav {
 }
 
 nav {
-	background:white;
-	padding: 0 0.7em;
-	white-space: nowrap;
-	
+background:white;
+padding: 0 0.7em;
+white-space: nowrap; 
 }
 
 nav ul {
@@ -90,9 +89,9 @@ nav ul li a:hover {
 }
 
 footer {
-margin-left:auto;
-margin-right:auto;
-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
 	margin-top:10px;
 	text-align:center;
 	
@@ -132,10 +131,10 @@ padding:10px 20px;
 height:237px;
 width:100%;
 position:absolute;
-   bottom:0;
-		background-image:url("/assets/bg_cloud.png");
-	background-position: bottom left;
-	background-repeat:y;
+bottom:0;
+background-image:url("/assets/bg_cloud.png");
+background-position: bottom left;
+background-repeat:y;
 }
 
 /* misc */
