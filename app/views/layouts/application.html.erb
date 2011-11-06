@@ -11,15 +11,7 @@
 			<section class="round">
 				<%= yield %>
 			</section>
-			<footer>
-				<nav class="round">
-				<ul>
-					<li><%= link_to "Home", '#' %></li>
-					<li><%= link_to "Help", '#' %></li>
-					<li><%= link_to "Sign in", '#' %></li>
-				</ul>
-				</nav>
-			</footer>
+			<%= render "layouts/footer" %>
 		</div>
 		<div id="bg_cloud"></div>
 	</body>
