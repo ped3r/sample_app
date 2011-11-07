@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'rails'
 gem 'sqlite3'
 gem 'jquery-rails'
+gem 'pg'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
