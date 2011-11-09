@@ -9,7 +9,7 @@ describe User do
 		User.create!(@test_user)
 	end
 	
-	it "should require a name" do #rspec treats this as a pending test
+	it "should require a name" do
 		no_name_user = User.new(@test_user.merge(:name => ""))
 		no_name_user.should_not be_valid
 	end
